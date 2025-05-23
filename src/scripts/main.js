@@ -2,7 +2,6 @@
 
 const spider = document.querySelector('.spider');
 
-spider.style.left = '45%';
-spider.style.top = '45%';
-spider.style.transformTranslateX = '-45%';
-spider.style.transformTranslateY = '-45%';
+spider.style.left = '50%';
+spider.style.top = '50%';
+spider.style.transform = 'translate(-50%, -50%)';
